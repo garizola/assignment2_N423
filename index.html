@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+    <body>
+
+      <div class="inputs">
+      <div class="location">
+
+        <input type="text" id="city" placeholder="city"/>
+
+        <div>or</div>
+
+        <input type="text" id="zip" placeholder="zip"/>
+        
+
+        <button type="submit" id="submit">get weather</button>
+      </div>
+    </div>
+      
+      <div class="content">
+        <div class="current-forecast" id="current-forecast">
+
+          <div class="current-forecast__temp">
+            <h2>Current temperature: </h2>
+            <p id="currTemp"></p>
+            <p id="feelsLike"></p>
+          </div>
+
+          <div class="current-forecast__conditions">
+            <h2>Conditions: </h2>
+            <p id="sun"></p>
+            <div id="conditionsImg"></div>
+
+            <p id="humidity">Humidity: </p>
+            <p id="uv">UV: </p>
+            <p id="wind">Wind: </p>
+          </div>
+
+        </div>
+
+        <div class="three-day-forecast">
+          <div class="three-day-forecast__day" id="day1">
+            <h2>DAY 1:</h2>
+            <div class="three-day-forecast__temp">
+              <h3>Max Temperature: </h3>
+              <p id="three-day-forecast__max-temp1"></p>
+            </div>
+  
+            <div class="three-day-forecast__conditions">
+              <h3>Conditions: </h3>
+              <p id="three-day-forecast__sun1"></p>
+              <div id="three-day-forecast__conditionsImg1"></div>
+              <p id="three-day-forecast__rain-chance1">Chance of rain: </p>
+  
+              <p id="three-day-forecast__humidity1">Humidity: </p>
+              <p id="three-day-forecast__uv1">UV: </p>
+              <p id="three-day-forecast__max-wind1">Wind: </p>
+            </div>
+          </div>
+
+          <div class="three-day-forecast__day" id="day2">
+            <h2>DAY 2:</h2>
+            <div class="three-day-forecast__temp">
+              <h3>Max Temperature: </h3>
+              <p id="three-day-forecast__max-temp2"></p>
+            </div>
+  
+            <div class="three-day-forecast__conditions">
+              <h3>Conditions: </h3>
+              <p id="three-day-forecast__sun2"></p>
+              <div id="three-day-forecast__conditionsImg2"></div>
+              <p id="three-day-forecast__rain-chance2">Chance of rain: </p>
+  
+              <p id="three-day-forecast__humidity2">Humidity: </p>
+              <p id="three-day-forecast__uv2">UV: </p>
+              <p id="three-day-forecast__max-wind2">Wind: </p>
+            </div>
+          </div>
+
+          <div class="three-day-forecast__day" id="day3">
+            <h2>DAY 3:</h2>
+            <div class="three-day-forecast__temp">
+              <h3>Max Temperature: </h3>
+              <p id="three-day-forecast__max-temp3"></p>
+            </div>
+  
+            <div class="three-day-forecast__conditions">
+              <h3>Conditions: </h3>
+              <p id="three-day-forecast__sun3"></p>
+              <div id="three-day-forecast__conditionsImg3"></div>
+              <p id="three-day-forecast__rain-chance3">Chance of rain: </p>
+  
+              <p id="three-day-forecast__humidity3">Humidity: </p>
+              <p id="three-day-forecast__uv3">UV: </p>
+              <p id="three-day-forecast__max-wind3">Wind: </p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <script src="lib/jquery-3.7.1.min.js"></script>
+      <script src="app/app.js"></script>
+    </body>
+</html>

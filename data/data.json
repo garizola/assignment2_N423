@@ -1,0 +1,51 @@
+{
+    "STUDENTS": [
+        {
+            "firstName": "Giovanni",
+            "lastName": "Arizola",
+            "address": "123 street ave",
+            "phone": "123-456-7891",
+            "email": "ga1@gmail.com",
+            "classes": [
+                {
+                    "className": "N423"
+                }, 
+                {
+                    "className": "N322"
+                }
+            ]
+        }, 
+        {
+            "firstName": "Corey",
+            "lastName": "Williams",
+            "address": "123 bike ave",
+            "phone": "999-896-7001",
+            "email": "clewis@gmail.com",
+            "classes": [
+                {
+                    "className": "N423"
+                }, 
+                {
+                    "className": "N322"
+                }
+            ]
+        }, 
+        {
+            "firstName": "Jordan",
+            "lastName": "Love",
+            "address": "123 Lombardi ave",
+            "phone": "920-886-7801",
+            "email": "jlove@gmail.com",
+            "classes": [
+                {
+                    "className": "N423"
+                }, 
+                {
+                    "className": "N322"
+                }
+            ]
+        }
+        
+        
+    ]
+}

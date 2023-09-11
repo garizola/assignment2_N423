@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.inputs .location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.inputs .location div {
+  font-size: 1rem;
+}
+.inputs .location input {
+  max-width: 300px;
+  width: 25%;
+  height: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
+.inputs .location button {
+  background-color: darkcyan;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+#submit {
+  width: 100px;
+  height: 32px;
+  margin: 10px;
+}
+
+.content {
+  height: 90%;
+}
+.content .current-forecast {
+  width: inherit;
+  height: 30%;
+  display: flex;
+  padding: 1rem;
+}
+.content .current-forecast__temp {
+  color: darkcyan;
+  width: 50%;
+  font-size: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.25rem;
+  align-items: center;
+}
+.content .current-forecast__temp p {
+  color: black;
+  font-size: 1.25rem;
+}
+.content .current-forecast__temp #currTemp {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.content .current-forecast__conditions {
+  color: darkcyan;
+  padding-top: 2.25rem;
+  width: 50%;
+  font-size: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .current-forecast__conditions p {
+  color: black;
+  font-size: 1.25rem;
+}
+.content .current-forecast__conditions #currTemp {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.three-day-forecast {
+  width: inherit;
+  height: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.three-day-forecast__day {
+  height: 80%;
+  width: 30%;
+  background-color: darkcyan;
+  padding: 1rem;
+}
+.three-day-forecast__day h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
