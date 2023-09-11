@@ -1,27 +1,27 @@
-function getStudents() {
-    $.getJSON('../data/data.json',
+// function getStudents() {
+//     $.getJSON('../data/data.json',
 
         
-        (data) => {
-            let students = data.STUDENTS;
+//         (data) => {
+//             let students = data.STUDENTS;
 
-            $.each(students, (i, student) => {
+//             $.each(students, (i, student) => {
                 
-                $('.students').append(`<p>${student.firstName}</p>`);
+//                 $('.students').append(`<p>${student.firstName}</p>`);
 
-                $.each(student.classes, (i, course) => {
-                    $('.students').append(`<li>${course.className}</li>`);
+//                 $.each(student.classes, (i, course) => {
+//                     $('.students').append(`<li>${course.className}</li>`);
 
-                });
-            });
-        }
-    )
+//                 });
+//             });
+//         }
+//     )
 
-    .fail(function(e) {
-        console.log( e);
-    })
+//     .fail(function(e) {
+//         console.log( e);
+//     })
    
-}
+// }
 
 
 
