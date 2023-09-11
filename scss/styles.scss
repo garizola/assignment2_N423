@@ -13,7 +13,20 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px;
 }
+#login   {  
+    background-color: darkcyan;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 8px;
+    
+    margin-left: 8px;
+    margin-top: 8px;
+}
 
+#login:hover {
+    background-color:rgb(253, 190, 0) ;
+}
 
 
 .inputs {
@@ -21,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding-top: 1rem;
     .location {
         width: 100%;
         display: flex;
@@ -47,7 +60,11 @@ h1, h2, h3, h4, h5, h6, p {
             border-radius: 3px;
             color: white;
         }
+        button:hover {
+            background-color:rgb(253, 190, 0) ;
+        }
     }
+   
 }
 
 
@@ -83,7 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
             height: 100%;
             display: flex;
             flex-direction: column;
-            padding-top: 1.25rem;
+            padding-top: .5rem;
           
             align-items: center;
             p {
@@ -98,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
 
         &__conditions {
             color: darkcyan;
-            padding-top: 1.25rem;
+            padding-top: .5rem;
             width: 50%;
             font-size: 1.5rem;
             height: 100%;
@@ -174,6 +191,7 @@ h1, h2, h3, h4, h5, h6, p {
         &__conditions { 
             min-width: 100%;
             min-height: auto;
+            margin-bottom: 2rem;
         }
     }
 
